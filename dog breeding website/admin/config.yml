@@ -1,0 +1,25 @@
+backend:
+  name: test-repo
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "website"
+    label: "Website"
+    files:
+      - file: "content/website.yml"
+        label: "Website Content"
+        name: "website"
+        fields:
+          - label: "Website Name"
+            name: "site_name"
+            widget: "string"
+
+          - label: "Hero Heading"
+            name: "hero_heading"
+            widget: "string"
+
+          - label: "Hero Description"
+            name: "hero_description"
+            widget: "text"
