@@ -1,0 +1,15 @@
+{
+  "dogs": [
+    {
+      "gender": "Male",
+      "name": "Max",
+      "status": "Available",
+      "breed": "German Shepherd",
+      "amount": "50,000 NAIRA",
+      "weight": "30.5kg",
+      "button_text": "Book Now",
+      "image": "/images/uploads/german-shepherd.jpeg",
+      "age": "3 Years"
+    }
+  ]
+}
